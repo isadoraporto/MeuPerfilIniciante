@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    box-sizing :content-box;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Lexend', "sans-serif";
+    background:radial-gradient( circle at top center,
+    rgba(88, 166, 255, 0.35),
+    transparent 60%
+    ),
+    linear-gradient(135deg, #0F2027, #203A43, #2C5364);
+}
+.perfil {
+
+    margin-top: 90px;
+    height:40vh ;
+    padding-top: 10%;
+    flex-direction:column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+
+    border-radius: 50%;
+    width: 20%;
+}
+.div1{
+    transition: 2s;
+    background-color: #9db2bb;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #2d90ba;
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid rgb(212, 201, 201);
+}
+.div1 .h4 a{
+    text-decoration: none;
+    color: #2d90ba;
+
+}
+.div1:hover{
+    background-color: #9d90ba;
+    color: aliceblue;
+   
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    color: #2d90ba;
+}
+header {
+    color: #9db2bb;
+    position: fixed;    /* fica grudado no topo ao rolar */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: flex-end;  /* joga pra direita */
+    align-items: center;
+    background: rgba(15, 32, 39, 0.6);  /* escuro semitransparente */
+    backdrop-filter: blur(8px);  /* efeito vidro fosco */
+    z-index: 100;
+  }
+  
+  header a {
+  
+    color: #2d90ba;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+  }
+  
+  header a:hover {
+    cursor: pointer;
+    color: aliceblue;
+    transition: color 0.3s;
+  }
